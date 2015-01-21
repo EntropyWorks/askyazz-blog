@@ -1,3 +1,6 @@
 [submodule "pelican-themes/pelican-cait"]
 	path = pelican-themes/pelican-cait
 	url = https://github.com/EntropyWorks/pelican-cait.git
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/EntropyWorks/pelican-plugins.git
