@@ -4,6 +4,6 @@
 [submodule "pelican-themes/pelican-mg"]
 	path = pelican-themes/pelican-mg
 	url = https://github.com/lucachr/pelican-mg.git
-[submodule "output"]
+[submodule "other"]
 	path = output
 	url = git@github.com:EntropyWorks/entropyworks.github.io.git
