@@ -9,4 +9,9 @@ About
 :authors: Yazz Atlas
 :summary: Ask Yazz and maybe he will write about it.
 
-This is just a place for me to sund off and answer some questions
+This is just a place for me to sound off and answer some questions. 
+
+Your welcome to checkout my LinkedIn_ profile.
+
+.. _LinkedIn: http://www.linkedin.com/in/yazzatlas
+
