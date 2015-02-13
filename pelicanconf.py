@@ -3,6 +3,7 @@
 from __future__ import unicode_literals
 
 DELETE_OUTPUT_DIRECTORY = False
+OUTPUT_RETENTION = ( ".git" )
 
 PATH = 'content'
 TIMEZONE = 'America/Los_Angeles'
@@ -79,16 +80,13 @@ TIPUE_SEARCH_SAVE_AS = 'tipue_search.json'
 SITEMAP = { 'format': 'xml'}
 
 
-
-
-
 # Could not use this since it broke the search, which I don't really know
 # enought to modify for my own needs...
 #
-#ARTICLE_URL = "posts/{date:%Y}/{date:%m}/{slug}/"
-#ARTICLE_SAVE_AS = "posts/{date:%Y}/{date:%m}/{slug}/index.html"
+ARTICLE_URL = "posts/{date:%Y}/"
+ARTICLE_SAVE_AS = "posts/{date:%Y}/{slug}/index.html"
 #CATEGORY_URL = "category/{slug}/"
 #CATEGORY_SAVE_AS = "category/{slug}/index.html"
 #TAG_URL = "tag/{slug}/"
 #TAG_SAVE_AS = "tag/{slug}/index.html"
-#YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
+YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
