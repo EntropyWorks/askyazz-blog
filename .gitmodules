@@ -3,7 +3,7 @@
 	url = https://github.com/EntropyWorks/pelican-plugins.git
 [submodule "pelican-themes/pelican-mg"]
 	path = pelican-themes/pelican-mg
-	url = https://github.com/lucachr/pelican-mg.git
+url=https://github.com/EntropyWorks/pelican-mg.git
 [submodule "other"]
 	path = output
 	url = git@github.com:EntropyWorks/entropyworks.github.io.git
